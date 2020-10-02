@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<h1>home</h1>
+<p>صفحه اصلی      </p>
+<a href="{%url 'about'%}">about me</a>
+<form action="{%url 'password'%}">
+ <input type="text" name="t1"/>نام
+ <br/>
+ <input type="text" name="t2"/>نام خانوادگی
+ <br/>
+<input type="checkbox" name="num"/>سن
+<br/>
+<input type="radio" name="z" value="zz"/>زن
+<br/>
+<input type="radio" name="z" value="m"/>مرد
+<br/>
+<select name='place'>محل تولد
+  <option>تبریز</option>
+  <option>تهران</option>
+  <option>مشهد</option>
+</select>
+<br/>
+  <input type="submit" value="نمایش اطلاعات"/>
+</form>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <<h1>about</h1>
+    <p>درباره ما</p>
+    <a href="{%url 'home'%}">home</a>
+    <form action="{%url 'about'%}">
+     <input type="text" name="t1" value={{nam}}/>نام
+     <br/>
+     <input type="text" name="t2" value={{ps}}/>
+     <br/>
+    <input type="checkbox" name="c1"/>اعداد
+    <br/>
+    <input type="checkbox" name="c2" value="z"/>حروف بزرگ
+    <br/>
+    <input type="checkbox" name="c3" value="m"/>علایم
+    <br/>
+    <br/>
+      <input type="submit" value="نمایش اطلاعات"/>
+    </form>
+
+
+      </body>
+    <hr/>
+  </body>
+</html>
